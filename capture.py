@@ -83,8 +83,9 @@ try:
         # images = np.hstack((color_image, depth_image))
 
         # Show images from both cameras
-        cv2.namedWindow('RealSense', cv2.WINDOW_AUTOSIZE)
-        cv2.imshow('RealSense', depth_image)
+        window = cv2.namedWindow('RealSense', cv2.WINDOW_AUTOSIZE)
+        draw_rectangle(window, (300, 220), (340, 260))
+        cv2.imshow('RealSense', color_image)
         cv2.waitKey(1)
 
         # Save images and depth maps from both cameras by pressing 's'
