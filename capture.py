@@ -67,8 +67,8 @@ def capture():
     # name_number = str(random.randint(0,9999))
     name_number = time.strftime("%Y%m%d-%H%M%S")
     print(name_number)
-    img_name = "color" + name_number + ".jpg"
-    depth_name = "depth" + name_number + ".jpg"
+    img_name = "color_" + name_number + ".jpg"
+    depth_name = "depth_" + name_number + ".jpg"
     distance = str(get_distance())
     font = cv2.FONT_HERSHEY_COMPLEX_SMALL
 
@@ -85,7 +85,7 @@ def capture():
     # draw_rectangle(depth_image, (300, 220), (340, 260))
 
     cv2.imwrite(img_name, color_image)
-    cv2.imwrite(depth_name, depth_image)
+    # cv2.imwrite(depth_name, depth_image)
     print("Save")
 
 
