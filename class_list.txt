@@ -1,0 +1,13 @@
+0: 7up
+1: aquafina
+2: cafe
+3: chanh
+4: drthanh
+5: fuzetea
+6: lavie
+7: mountaindew
+8: olong
+9: ovaltine
+10: soda
+11: babydream
+12: ginkgo
