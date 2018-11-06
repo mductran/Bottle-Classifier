@@ -1,0 +1,22 @@
+<annotaion>
+  <folder>images/</folder>
+  <filename>color_20181010-170252.jpg</filename>
+  <size>
+    <width>640</width>
+    <height>480</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>mountaindew</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>287</xmin>
+      <ymin>39</ymin>
+      <xmax>417</xmax>
+      <ymax>363</ymax>
+    </bndbox>
+  </object>
+</annotaion>
