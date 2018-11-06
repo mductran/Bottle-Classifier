@@ -1,0 +1,34 @@
+<annotaion>
+  <folder>images/</folder>
+  <filename>color_20181010-153822.jpg</filename>
+  <size>
+    <width>640</width>
+    <height>480</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>lavie</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>437</xmin>
+      <ymin>233</ymin>
+      <xmax>519</xmax>
+      <ymax>441</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>aquafina</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>119</xmin>
+      <ymin>232</ymin>
+      <xmax>195</xmax>
+      <ymax>479</ymax>
+    </bndbox>
+  </object>
+</annotaion>

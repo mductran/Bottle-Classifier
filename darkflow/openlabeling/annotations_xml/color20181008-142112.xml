@@ -1,0 +1,22 @@
+<annotaion>
+  <folder>images/</folder>
+  <filename>color20181008-142112.jpg</filename>
+  <size>
+    <width>640</width>
+    <height>480</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>ginkgo</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>301</xmin>
+      <ymin>158</ymin>
+      <xmax>473</xmax>
+      <ymax>457</ymax>
+    </bndbox>
+  </object>
+</annotaion>
